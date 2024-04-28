@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+
+.nav-links, .auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.auth {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.auth button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.auth button:hover {
+    background-color: #1570EF;
+    color: white;
+}
+
+.su {
+    background-color: #1570EF;
+    color: white;
+}
+
+.li {
+   background-color: white;
+}
+
+.auth button:active {
+    background-color: #1570EF;
+}
