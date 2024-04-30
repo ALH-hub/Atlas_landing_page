@@ -6,6 +6,8 @@ import dots from '../assets/dots.png'
 import bolt from '../assets/bolt-solid.svg'
 import star from '../assets/star-regular.svg'
 import cloud from '../assets/cloud-arrow-down-solid.svg'
+import LmsInfo from './LmsInfo.jsx'
+import Features from './Features.jsx'
 
 const Page = () => {
   return (
@@ -83,6 +85,8 @@ const Page = () => {
             </div>
           </div>
         </div>
+        <LmsInfo />
+        <Features />
       </div>
     </>
   )
