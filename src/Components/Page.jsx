@@ -3,6 +3,9 @@ import education from '../assets/education.png'
 import User from '../assets/User-reviews.png'
 import stars from '../assets/Stars.png'
 import dots from '../assets/dots.png'
+import bolt from '../assets/bolt-solid.svg'
+import star from '../assets/star-regular.svg'
+import cloud from '../assets/cloud-arrow-down-solid.svg'
 
 const Page = () => {
   return (
@@ -47,6 +50,37 @@ const Page = () => {
               <img src={stars} alt="stars" />
             </div>
             <img src={dots} alt="dots" className='dots'/>
+          </div>
+        </div>
+        <div className="procedure">
+          <div className="procedure-head">
+            <div className="proc-title">
+              <h2>How ATLAS enhances learning</h2>
+              <p>Our learning platform is engineered to provide a seamless education journey through four intruitive steps:</p>
+            </div>
+            <button>Get Started</button>
+          </div>
+          <div className="steps">
+            <div className="step">
+              <img src={bolt} alt="bolt icon" />
+              <h4>Register & Personalize</h4>
+              <p>sign up effortlessly and personalize your learning experience.</p>
+            </div>
+            <div className="step">
+              <img src={cloud} alt="cloud icon" />
+              <h4>Discover Resources</h4>
+              <p>Get access to an extenssive library of notes and video tutorials.</p>
+            </div>
+            <div className="step">
+              <img src={bolt} alt="bolt icon" />
+              <h4>Test your Knowledge</h4>
+              <p>Apply what you have learned by taking interractive quizzes</p>
+            </div>
+            <div className="step">
+              <img src={star} alt="" />
+              <h4>Achieve Excellence</h4>
+              <p>with consistence practice and dedicated support, mastery of subjects become attainable.</p>
+            </div>
           </div>
         </div>
       </div>

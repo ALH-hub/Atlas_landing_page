@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
 }
 
 .welcome {
@@ -115,8 +117,6 @@
     align-items: center;
     justify-content: center;
     color: white;
-    width: 100vw;
-    max-width: 100%;
     padding: 3rem;
 }
 
@@ -170,4 +170,69 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     width: 1rem;
+}
+
+.procedure {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 5rem;
+}
+
+.procedure-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .proc-title {
+    width: 70%;
+} */
+
+.procedure-head button {
+    background-color: #1570EF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+    width: 6rem;
+    text-align: center;
+    height: 3rem;
+}
+
+.proc-title p{
+    font-size: 18px;
+    font-weight: regular;
+    color: #667085;
+    width: 80%;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: solid 10px black;
+    justify-content: space-evenly;
+}
+
+.step img {
+    width: 10%;
+    border: solid 1px #1570EF;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #1570EF;
+}
+
+.step h4 {
+    margin: 0;
+    margin-top: 1rem;
 }
