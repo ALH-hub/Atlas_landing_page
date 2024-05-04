@@ -80,3 +80,27 @@
     color: blue;
     font-size: medium;
 }
+
+@media (max-width: 768px) {
+    .features-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .feature-title {
+        width: 60%;
+    }
+  
+    .features {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature {
+        width: 60%;
+    }
+  }

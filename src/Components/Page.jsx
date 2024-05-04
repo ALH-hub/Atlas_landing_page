@@ -29,7 +29,7 @@ const Page = () => {
                     </form>
                     <img src={User} alt="" />
                 </div>
-                <img src={education} alt="small boy studying image" />
+                <img src={education} alt="small boy studying image" id='boy-img'/>
             </div>
             <div className="experts">
               <h3>Trusted by educational experts</h3>
