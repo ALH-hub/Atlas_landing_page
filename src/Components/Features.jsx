@@ -1,8 +1,8 @@
 import './Features.css'
-import check from '../assets/check.png'
-import bolt from '../assets/bolt-solid.svg'
-import face from '../assets/face-smile-solid.svg'
-import chart from '../assets/chart-simple-solid.svg'
+import check from '../assets/feature.png'
+import bolt from '../assets/feature-bolt.png'
+import face from '../assets/feature-smile.png'
+import chart from '../assets/feature-graph.png'
 import arrow from '../assets/arrow-right.png'
 
 const Features = () => {

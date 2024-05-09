@@ -13,11 +13,9 @@
 }
 
 .feature-title img {
-    width: 8%;
-    height: 5%;
+    width: 18%;
     background-color: lightblue;
     border-radius: 50%;
-    padding: 0.5rem;
 }
 
 .feature-title h2, .feature h4 {
@@ -50,11 +48,7 @@
 }
 
 .feature .f-img {
-    width: 8%;
-    height: 10%;
-    background-color: #2E90FA;
-    border-radius: 50%;
-    padding: 0.5rem;
+    width: 12%;
 }
 
 .feature p, .feature-title p {
