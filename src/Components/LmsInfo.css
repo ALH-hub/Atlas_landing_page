@@ -1,11 +1,11 @@
-.lms-info {
+#lms-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
 }
 
-.lms-info h5 {
+#lms-info h5 {
     background-color: #94dfec;
     font-size: large;
 }

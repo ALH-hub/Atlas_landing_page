@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 100vw;
     max-width: 100%;
+    margin-top: 4rem;
 }
 
 .welcome {
@@ -14,22 +15,32 @@
     align-items: center;
 }
 
-.purpose {
+#purpose {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 5rem;
+    padding: 0 0rem 5rem 5rem;
 }
 
-.purpose img {
+/* #purpose img {
     width: 60%;
+} */
+
+#purpose #boy-img {
+    width: 60%;
+    height: 50%;
+}
+
+#purpose #user-review {
+    width: 50%;
 }
 
 .message {
     display: flex;
     flex-direction: column;
     width: 40%;
+    gap: 1rem;
 }
 
 .message h1 {
@@ -47,19 +58,20 @@
 
 .form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 1rem;
 }
 
-.form label {
+.in label {
     font-size: 16px;
     font-weight: semi-bold;
     color: #667085;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
 }
 
 .in {
     display: flex;
-    gap: 0.8rem;
+    flex-direction: column;
 }
 
 .in input {
@@ -70,7 +82,7 @@
     padding: 0.5rem;
 }
 
-.in button {
+.form button {
     height: 2.7rem;
     width: 6rem;
     text-align: center;
@@ -234,7 +246,7 @@
 }
 
 @media (max-width: 768px) {
-   .purpose {
+   #purpose {
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -248,7 +260,7 @@
     width: 80%;
    }
 
-   .purpose #boy-img {
+   #purpose #boy-img {
     width: 100%;
    }
    

@@ -8,13 +8,14 @@ import star from '../assets/process-star.png'
 import cloud from '../assets/process-cloud.png'
 import LmsInfo from './LmsInfo.jsx'
 import Features from './Features.jsx'
+import user from '../assets/user-solid.svg'
 
 const Page = () => {
   return (
     <>
       <div className="entire">
         <div className="welcome">
-            <div className="purpose">
+            <div id="purpose">
                 <div className="message">
                     <h1>Empower your education</h1>
                     <p>
@@ -23,11 +24,11 @@ const Page = () => {
                     <form action="" className='form'>
                       <div className="in">
                         <input type="email" placeholder='Join waitlist' />
-                        <button>Get Started</button>
+                        <label>Be the first to know when we launch</label>
                       </div>
-                      <label>Be the first to know when we launch</label>
+                      <button>Get Started</button>
                     </form>
-                    <img src={User} alt="" />
+                    <img src={User} alt="" id='user-review'/>
                 </div>
                 <img src={education} alt="small boy studying image" id='boy-img'/>
             </div>
@@ -45,7 +46,7 @@ const Page = () => {
         <div className="aim">
           <h3>Atlas revolutionized the way we approach education, with its interactive platform making learning not just accessible but truly engaging.</h3>
           <div className='profile'>
-            <img src={education} alt="supervisor image here" />
+            <img src={user} alt="supervisor image here" />
             <div className='info'>
               <h3>Bill Agha</h3>
               <p>Supervisor, Atlas</p>

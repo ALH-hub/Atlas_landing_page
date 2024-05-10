@@ -42,9 +42,11 @@
 .feature {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     background-color: rgba(176, 218, 255, 0.2);
     border: none;
+    padding: 1.5rem;
+    border-radius: 5px;
 }
 
 .feature .f-img {

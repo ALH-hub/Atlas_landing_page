@@ -8,8 +8,8 @@ const Navigation = () => {
             <h1>ATLAS</h1>
         </div>
         <ul className="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">LMS</a></li>
+            <li><a href="#purpose">Home</a></li>
+            <li><a href="#lms-info">LMS</a></li>
         </ul>
         <div className="auth">
             <button className='li'>Login</button>

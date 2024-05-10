@@ -3,7 +3,7 @@ import Container from '../assets/Container.png'
 
 const LmsInfo = () => {
   return (
-    <div className='lms-info'>
+    <div id='lms-info'>
       <h5>The ATLAS LMS</h5>
       <div className="info-container">
         <div className="lms-purpose">
